@@ -52,8 +52,8 @@ foreach ($line in $file){
     #split one of the resulting variables above based on a slash
     $month,$day,$year = $date -split "/";
 
-    #if the name has "Mark" in it, print "Hey!" without a newline
-    if ($name -match "Mark"){
+    #if the name has "Ma" in it, print "Hey!" without a newline
+    if ($name -match "Ma"){
         write-host -nonewline "Hey! "
     
         }
